@@ -1,17 +1,20 @@
 import java.util.Scanner;
 
 public class InputCalculator {
-    public static void main(String[] args) {
-
-        Scanner sc = new Scanner(System.in);
-        int number = 0;
-
-    }
 
     public static void inputThenPrintSumAndAverage() {
 
-        
-        
-        System.out.println
+        Scanner scanner = new Scanner(System.in);
+        int sum = 0;
+        int count = 0;
+
+        while (scanner.hasNextInt()) {
+            sum += scanner.nextInt();
+            count++;
+
+        }
+        System.out.println("SUM = " + sum + " AVG = " + Math.round((double) sum / count));
+        scanner.close();
+
     }
 }
