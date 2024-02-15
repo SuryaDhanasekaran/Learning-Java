@@ -1,0 +1,15 @@
+DSA:
+
+Organizing Data
+
+DS is a way of Organizing data in computer so that it is 
+efficient to handle the data
+
+efficient: speed, space, ease of use
+
+LL
+Stack
+Queue
+Tree
+Graph 
+HashTable

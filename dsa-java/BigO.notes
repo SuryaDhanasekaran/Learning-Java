@@ -1,0 +1,9 @@
+DS: Read,Write,Update,Insert,Delete
+
+[√] Arrays are Not Flexible
+[√] Worst Case - Insert at 0th position in an Arrays
+[√] Insert,Delete,Search - O(n)
+[√] Eliminate constants
+[√] Costant time - O(1) for all operations Read,Write,Update
+
+O(n^2) - size 1 lakh, time (1 lakh)^2
